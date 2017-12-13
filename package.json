@@ -1,0 +1,22 @@
+{
+  "name": "socketchat",
+  "version": "1.0.0",
+  "description": "A chat application using Node.js, Express, Mongodb, Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiashraf/SocketChat.git"
+  },
+  "keywords": [
+    "Socket.io"
+  ],
+  "author": "Khalid Ibrahim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiashraf/SocketChat/issues"
+  },
+  "homepage": "https://github.com/kiashraf/SocketChat#readme"
+}
