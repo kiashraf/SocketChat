@@ -5,6 +5,7 @@ module.exports = function(_) {
 
         SetRouting: function(router) {
             router.get('/', this.indexPage);
+            router.get('/signup', this.getSignup);
 
         },
 
@@ -12,6 +13,10 @@ module.exports = function(_) {
 
             return res.render('index', { test: 'this is a test page' });
 
+        },
+        getSignup: (req, res) => {
+
+            return res.render('signup', { signup: 'this is the signup' });
         }
     }
 }
